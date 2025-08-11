@@ -4,7 +4,7 @@ import { UsersModule } from '../users/users.module';
 import { PostsModule } from '../posts/posts.module';
 
 @Module({
-  imports: [UsersModule, PostsModule], // ✅ bu juda muhim
+  imports: [UsersModule, PostsModule], 
   controllers: [SeedController],
 })
 export class SeedModule {}
